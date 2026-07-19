@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelCopilot - TripPilot AI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Background Slideshow -->
+    <div class="background-slider">
+        <div class="slide active"
+            style="background-image: url('https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=2070&auto=format&fit=crop');">
+        </div>
+        <div class="slide"
+            style="background-image: url('https://images.unsplash.com/photo-1501594907352-04cda38ebc29?q=80&w=2070&auto=format&fit=crop');">
+        </div>
+        <div class="slide"
+            style="background-image: url('https://images.unsplash.com/photo-1506929562872-bb421503ef21?q=80&w=2070&auto=format&fit=crop');">
+        </div>
+        <div class="slide"
+            style="background-image: url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=2070&auto=format&fit=crop');">
+        </div>
+    </div>
+
+    <!-- Main Overlay -->
+    <div class="overlay">
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="logo-container" id="logo-btn">
+                <div class="logo-icon">✈</div>
+                <span class="logo-text">travelcopilot</span>
+            </div>
+            <div class="nav-links">
+                <a href="#">Stays</a>
+                <a href="#">Flights</a>
+                <a href="#">Itineraries</a>
+                <a href="#">Guides</a>
+            </div>
+            <button class="sign-in-btn">Sign in</button>
+        </nav>
+
+        <!-- Hero Content -->
+        <main class="hero">
+            <div class="tagline">
+                <span class="dot"></span> TripPilot AI - Your Journey, Guided by AI
+            </div>
+            <h1 class="hero-title">Create your travel itinerary</h1>
+            <p class="hero-subtitle">Experience a smarter travel search that finds the perfect itinerary — with your
+                preferences as the highest priority.</p>
+
+
+
+            <div class="booking-link">
+                Already booked? <strong>Manage your bookings</strong>
+            </div>
+
+            <!-- Slide Indicators -->
+            <div class="slide-indicators">
+                <span class="indicator active"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+            </div>
+        </main>
+    </div>
+
+    <!-- Dashboard Modal (Opens on Logo Click) -->
+    <div class="modal" id="dashboard-modal">
+        <div class="modal-content glass-panel">
+            <button class="close-btn" id="close-modal">&times;</button>
+            <div class="dashboard-layout">
+                <aside class="sidebar">
+                    <div class="sidebar-logo">
+                        <div class="logo-icon">✈</div>
+                        <span class="logo-text">travelcopilot</span>
+                    </div>
+                    <ul class="sidebar-nav">
+                        <li class="active"><span class="icon">🧳</span> Trips</li>
+                        <li><span class="icon"></span> Saved</li>
+                        <li><span class="icon"></span> Search</li>
+                        <li><span class="icon"></span> Inspire</li>
+                        <li><span class="icon">🤖</span> AI Assistance</li>
+                    </ul>
+                </aside>
+
+                <section class="dashboard-main">
+                    <h2>Inspire: Your Uploaded Destinations</h2>
+                    <p>Beautiful locations to get you started on your next journey.</p>
+
+                    <div class="gallery">
+                        <div class="gallery-card">
+                            <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=800&auto=format&fit=crop"
+                                alt="Bamboo Forest">
+                            <div class="card-info">Kyoto Bamboo Forest</div>
+                        </div>
+                        <div class="gallery-card">
+                            <img src="https://images.unsplash.com/photo-1516483638261-f4088921eece?q=80&w=800&auto=format&fit=crop"
+                                alt="Santorini">
+                            <div class="card-info">Santorini, Greece</div>
+                        </div>
+                        <div class="gallery-card">
+                            <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=800&auto=format&fit=crop"
+                                alt="Mountain Sunset">
+                            <div class="card-info">Alpine Sunset</div>
+                        </div>
+                        <div class="gallery-card">
+                            <img src="https://images.unsplash.com/photo-1509316785289-025f5b846b35?q=80&w=800&auto=format&fit=crop"
+                                alt="Desert">
+                            <div class="card-info">Sahara Desert</div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

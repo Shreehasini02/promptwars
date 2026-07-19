@@ -1,0 +1,1395 @@
+[
+  {
+    "id": "1784368786951",
+    "title": "🇫🇷 Paris — 🏔️ Adventure Trip",
+    "destination": "Paris",
+    "country": "France",
+    "emoji": "🇫🇷",
+    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800",
+    "days": 4,
+    "travelers": 2,
+    "tripType": "adventure",
+    "tripTypeLabel": "🏔️ Adventure Trip",
+    "prompt": "paris of 4 days under budet ",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Explore",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Visit the Eiffel Tower & take elevator to the top",
+            "done": true
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Walk through Luxembourg Gardens",
+            "done": true
+          },
+          {
+            "time": "Evening",
+            "activity": "Visit Notre-Dame Cathedral area",
+            "done": true
+          }
+        ],
+        "meal": "Croissants at Du Pain et des Idées"
+      },
+      {
+        "day": 2,
+        "title": "Day 2 — Discover",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Walk through the Louvre Museum",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Try escargot at a traditional bistro",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Visit Musée d'Orsay",
+            "done": false
+          }
+        ],
+        "meal": "Steak frites at Le Relais de l'Entrecôte"
+      },
+      {
+        "day": 3,
+        "title": "Day 3 — Discover",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Stroll along the Champs-Élysées",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Enjoy pastries at a local boulangerie",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Explore Montmartre & Sacré-Cœur",
+            "done": false
+          }
+        ],
+        "meal": "Crêpes in Montmartre"
+      },
+      {
+        "day": 4,
+        "title": "Final Day & Departure",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Visit the Arc de Triomphe",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Explore Saint-Germain-des-Prés",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Explore the Palace of Versailles",
+            "done": false
+          }
+        ],
+        "meal": "Fine dining at Le Jules Verne"
+      }
+    ],
+    "checklist": [
+      {
+        "text": "Book round-trip flights",
+        "done": true,
+        "category": "booking"
+      },
+      {
+        "text": "Reserve hotel (Hôtel Plaza Athénée)",
+        "done": true,
+        "category": "booking"
+      },
+      {
+        "text": "Get travel insurance",
+        "done": true,
+        "category": "booking"
+      },
+      {
+        "text": "Check passport validity",
+        "done": false,
+        "category": "documents"
+      },
+      {
+        "text": "Apply for visa (if required)",
+        "done": false,
+        "category": "documents"
+      },
+      {
+        "text": "Print/save booking confirmations",
+        "done": false,
+        "category": "documents"
+      },
+      {
+        "text": "Download offline maps",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Pack comfortable walking shoes",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Pack weather-appropriate clothing",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Bring universal power adapter",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Pack sunscreen & toiletries",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Arrange airport transfer",
+        "done": false,
+        "category": "transport"
+      },
+      {
+        "text": "Research local transport options",
+        "done": false,
+        "category": "transport"
+      },
+      {
+        "text": "Exchange currency or get travel card",
+        "done": false,
+        "category": "finance"
+      },
+      {
+        "text": "Set travel budget and daily limits",
+        "done": false,
+        "category": "finance"
+      },
+      {
+        "text": "Inform bank about travel dates",
+        "done": false,
+        "category": "finance"
+      }
+    ],
+    "receipts": [
+      {
+        "item": "✈️ Round-trip flights (×2)",
+        "amount": 1700,
+        "category": "flights",
+        "paid": false
+      },
+      {
+        "item": "🏨 Hotel — 4 nights",
+        "amount": 880,
+        "category": "accommodation",
+        "paid": false
+      },
+      {
+        "item": "🍽️ Food & dining — 4 days",
+        "amount": 520,
+        "category": "food",
+        "paid": false
+      },
+      {
+        "item": "🎯 Activities & tours — 4 days",
+        "amount": 360,
+        "category": "activities",
+        "paid": false
+      },
+      {
+        "item": "🚕 Local transport",
+        "amount": 120,
+        "category": "transport",
+        "paid": false
+      },
+      {
+        "item": "🛡️ Travel insurance",
+        "amount": 100,
+        "category": "insurance",
+        "paid": true
+      }
+    ],
+    "totalBudget": 3680,
+    "hotel": "Hôtel Plaza Athénée",
+    "createdAt": "2026-07-18T09:59:46.951Z",
+    "status": "planned",
+    "userId": "1784362118841"
+  },
+  {
+    "id": "1784368795553",
+    "title": "🇬🇷 Santorini — 💕 Romantic Getaway",
+    "destination": "Santorini",
+    "country": "Greece",
+    "emoji": "🇬🇷",
+    "image": "https://images.unsplash.com/photo-1533154683836-84ea7a0bc310?w=800",
+    "days": 5,
+    "travelers": 2,
+    "tripType": "romantic",
+    "tripTypeLabel": "💕 Romantic Getaway",
+    "prompt": "5-day romantic getaway to Santorini",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Explore",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Explore Ancient Akrotiri ruins",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Take a catamaran sailing tour",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Visit the Archaeological Museum",
+            "done": false
+          }
+        ],
+        "meal": "Fresh seafood at Ammoudi Fish Tavern"
+      },
+      {
+        "day": 2,
+        "title": "Day 2 — Discover",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Wine tasting at Santo Wines",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Take a cooking class",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Visit the Red Beach",
+            "done": false
+          }
+        ],
+        "meal": "Traditional Greek meze"
+      },
+      {
+        "day": 3,
+        "title": "Day 3 — Discover",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Visit the volcanic hot springs",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Watch sunset from Oia village",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Visit Amoudi Bay for seafood",
+            "done": false
+          }
+        ],
+        "meal": "Fava beans at Oia's tavernas"
+      },
+      {
+        "day": 4,
+        "title": "Day 4 — Discover",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Explore the caldera views from Fira",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Visit Kamari Beach",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Photography tour of blue domes",
+            "done": false
+          }
+        ],
+        "meal": "Wine and cheese sunset dinner"
+      },
+      {
+        "day": 5,
+        "title": "Final Day & Departure",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Explore Pyrgos village",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Swim at Perissa Black Sand Beach",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Hike from Fira to Oia",
+            "done": false
+          }
+        ],
+        "meal": "Fresh seafood at Ammoudi Fish Tavern"
+      }
+    ],
+    "checklist": [
+      {
+        "text": "Book round-trip flights",
+        "done": false,
+        "category": "booking"
+      },
+      {
+        "text": "Reserve hotel (Canaves Oia Luxury Suites)",
+        "done": false,
+        "category": "booking"
+      },
+      {
+        "text": "Get travel insurance",
+        "done": false,
+        "category": "booking"
+      },
+      {
+        "text": "Check passport validity",
+        "done": false,
+        "category": "documents"
+      },
+      {
+        "text": "Apply for visa (if required)",
+        "done": false,
+        "category": "documents"
+      },
+      {
+        "text": "Print/save booking confirmations",
+        "done": false,
+        "category": "documents"
+      },
+      {
+        "text": "Download offline maps",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Pack comfortable walking shoes",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Pack weather-appropriate clothing",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Bring universal power adapter",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Pack sunscreen & toiletries",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Arrange airport transfer",
+        "done": false,
+        "category": "transport"
+      },
+      {
+        "text": "Research local transport options",
+        "done": false,
+        "category": "transport"
+      },
+      {
+        "text": "Exchange currency or get travel card",
+        "done": false,
+        "category": "finance"
+      },
+      {
+        "text": "Set travel budget and daily limits",
+        "done": false,
+        "category": "finance"
+      },
+      {
+        "text": "Inform bank about travel dates",
+        "done": false,
+        "category": "finance"
+      }
+    ],
+    "receipts": [
+      {
+        "item": "✈️ Round-trip flights (×2)",
+        "amount": 1500,
+        "category": "flights",
+        "paid": false
+      },
+      {
+        "item": "🏨 Hotel — 5 nights",
+        "amount": 1400,
+        "category": "accommodation",
+        "paid": false
+      },
+      {
+        "item": "🍽️ Food & dining — 5 days",
+        "amount": 500,
+        "category": "food",
+        "paid": false
+      },
+      {
+        "item": "🎯 Activities & tours — 5 days",
+        "amount": 350,
+        "category": "activities",
+        "paid": false
+      },
+      {
+        "item": "🚕 Local transport",
+        "amount": 150,
+        "category": "transport",
+        "paid": false
+      },
+      {
+        "item": "🛡️ Travel insurance",
+        "amount": 100,
+        "category": "insurance",
+        "paid": false
+      }
+    ],
+    "totalBudget": 4000,
+    "hotel": "Canaves Oia Luxury Suites",
+    "createdAt": "2026-07-18T09:59:55.554Z",
+    "status": "planned",
+    "userId": "1784362118841"
+  },
+  {
+    "id": "1784368804643",
+    "title": "🇫🇷 Paris — 🏔️ Adventure Trip",
+    "destination": "Paris",
+    "country": "France",
+    "emoji": "🇫🇷",
+    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800",
+    "days": 5,
+    "travelers": 2,
+    "tripType": "adventure",
+    "tripTypeLabel": "🏔️ Adventure Trip",
+    "prompt": "paris",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Explore",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Explore Montmartre & Sacré-Cœur",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Stroll along the Champs-Élysées",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Shop at Le Marais district",
+            "done": false
+          }
+        ],
+        "meal": "Croissants at Du Pain et des Idées"
+      },
+      {
+        "day": 2,
+        "title": "Day 2 — Discover",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Explore Saint-Germain-des-Prés",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Take a cooking class in French cuisine",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Visit Musée d'Orsay",
+            "done": false
+          }
+        ],
+        "meal": "Steak frites at Le Relais de l'Entrecôte"
+      },
+      {
+        "day": 3,
+        "title": "Day 3 — Discover",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Visit Notre-Dame Cathedral area",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Enjoy pastries at a local boulangerie",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Try escargot at a traditional bistro",
+            "done": false
+          }
+        ],
+        "meal": "Crêpes in Montmartre"
+      },
+      {
+        "day": 4,
+        "title": "Day 4 — Discover",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Explore the Palace of Versailles",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Take a Seine River cruise at sunset",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Visit the Arc de Triomphe",
+            "done": false
+          }
+        ],
+        "meal": "Fine dining at Le Jules Verne"
+      },
+      {
+        "day": 5,
+        "title": "Final Day & Departure",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Walk through Luxembourg Gardens",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Walk through the Louvre Museum",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Visit the Eiffel Tower & take elevator to the top",
+            "done": false
+          }
+        ],
+        "meal": "Croissants at Du Pain et des Idées"
+      }
+    ],
+    "checklist": [
+      {
+        "text": "Book round-trip flights",
+        "done": false,
+        "category": "booking"
+      },
+      {
+        "text": "Reserve hotel (Hôtel Plaza Athénée)",
+        "done": false,
+        "category": "booking"
+      },
+      {
+        "text": "Get travel insurance",
+        "done": false,
+        "category": "booking"
+      },
+      {
+        "text": "Check passport validity",
+        "done": false,
+        "category": "documents"
+      },
+      {
+        "text": "Apply for visa (if required)",
+        "done": false,
+        "category": "documents"
+      },
+      {
+        "text": "Print/save booking confirmations",
+        "done": false,
+        "category": "documents"
+      },
+      {
+        "text": "Download offline maps",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Pack comfortable walking shoes",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Pack weather-appropriate clothing",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Bring universal power adapter",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Pack sunscreen & toiletries",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Arrange airport transfer",
+        "done": false,
+        "category": "transport"
+      },
+      {
+        "text": "Research local transport options",
+        "done": false,
+        "category": "transport"
+      },
+      {
+        "text": "Exchange currency or get travel card",
+        "done": false,
+        "category": "finance"
+      },
+      {
+        "text": "Set travel budget and daily limits",
+        "done": false,
+        "category": "finance"
+      },
+      {
+        "text": "Inform bank about travel dates",
+        "done": false,
+        "category": "finance"
+      }
+    ],
+    "receipts": [
+      {
+        "item": "✈️ Round-trip flights (×2)",
+        "amount": 1700,
+        "category": "flights",
+        "paid": false
+      },
+      {
+        "item": "🏨 Hotel — 5 nights",
+        "amount": 1100,
+        "category": "accommodation",
+        "paid": false
+      },
+      {
+        "item": "🍽️ Food & dining — 5 days",
+        "amount": 650,
+        "category": "food",
+        "paid": false
+      },
+      {
+        "item": "🎯 Activities & tours — 5 days",
+        "amount": 450,
+        "category": "activities",
+        "paid": false
+      },
+      {
+        "item": "🚕 Local transport",
+        "amount": 150,
+        "category": "transport",
+        "paid": false
+      },
+      {
+        "item": "🛡️ Travel insurance",
+        "amount": 100,
+        "category": "insurance",
+        "paid": false
+      }
+    ],
+    "totalBudget": 4150,
+    "hotel": "Hôtel Plaza Athénée",
+    "createdAt": "2026-07-18T10:00:04.643Z",
+    "status": "planned",
+    "userId": "1784362118841"
+  },
+  {
+    "id": "1784371570608",
+    "title": "🇫🇷 Paris — 🏔️ Adventure Trip",
+    "destination": "Paris",
+    "country": "France",
+    "emoji": "🇫🇷",
+    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800",
+    "days": 3,
+    "travelers": 2,
+    "tripType": "adventure",
+    "tripTypeLabel": "🏔️ Adventure Trip",
+    "prompt": "paris iternery of 3 days give me ",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Explore",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Walk through the Louvre Museum",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Visit Notre-Dame Cathedral area",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Explore Saint-Germain-des-Prés",
+            "done": false
+          }
+        ],
+        "meal": "Croissants at Du Pain et des Idées"
+      },
+      {
+        "day": 2,
+        "title": "Day 2 — Discover",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Walk through Luxembourg Gardens",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Visit Musée d'Orsay",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Shop at Le Marais district",
+            "done": false
+          }
+        ],
+        "meal": "Steak frites at Le Relais de l'Entrecôte"
+      },
+      {
+        "day": 3,
+        "title": "Final Day & Departure",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Try escargot at a traditional bistro",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Take a cooking class in French cuisine",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Explore Montmartre & Sacré-Cœur",
+            "done": false
+          }
+        ],
+        "meal": "Crêpes in Montmartre"
+      }
+    ],
+    "checklist": [
+      {
+        "text": "Book round-trip flights",
+        "done": false,
+        "category": "booking"
+      },
+      {
+        "text": "Reserve hotel (Hôtel Plaza Athénée)",
+        "done": false,
+        "category": "booking"
+      },
+      {
+        "text": "Get travel insurance",
+        "done": false,
+        "category": "booking"
+      },
+      {
+        "text": "Check passport validity",
+        "done": false,
+        "category": "documents"
+      },
+      {
+        "text": "Apply for visa (if required)",
+        "done": false,
+        "category": "documents"
+      },
+      {
+        "text": "Print/save booking confirmations",
+        "done": false,
+        "category": "documents"
+      },
+      {
+        "text": "Download offline maps",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Pack comfortable walking shoes",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Pack weather-appropriate clothing",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Bring universal power adapter",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Pack sunscreen & toiletries",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Arrange airport transfer",
+        "done": false,
+        "category": "transport"
+      },
+      {
+        "text": "Research local transport options",
+        "done": false,
+        "category": "transport"
+      },
+      {
+        "text": "Exchange currency or get travel card",
+        "done": false,
+        "category": "finance"
+      },
+      {
+        "text": "Set travel budget and daily limits",
+        "done": false,
+        "category": "finance"
+      },
+      {
+        "text": "Inform bank about travel dates",
+        "done": false,
+        "category": "finance"
+      }
+    ],
+    "receipts": [
+      {
+        "item": "✈️ Round-trip flights (×2)",
+        "amount": 1700,
+        "category": "flights",
+        "paid": false
+      },
+      {
+        "item": "🏨 Hotel — 3 nights",
+        "amount": 660,
+        "category": "accommodation",
+        "paid": false
+      },
+      {
+        "item": "🍽️ Food & dining — 3 days",
+        "amount": 390,
+        "category": "food",
+        "paid": false
+      },
+      {
+        "item": "🎯 Activities & tours — 3 days",
+        "amount": 270,
+        "category": "activities",
+        "paid": false
+      },
+      {
+        "item": "🚕 Local transport",
+        "amount": 90,
+        "category": "transport",
+        "paid": false
+      },
+      {
+        "item": "🛡️ Travel insurance",
+        "amount": 100,
+        "category": "insurance",
+        "paid": false
+      }
+    ],
+    "totalBudget": 3210,
+    "hotel": "Hôtel Plaza Athénée",
+    "createdAt": "2026-07-18T10:46:10.608Z",
+    "status": "planned",
+    "userId": "1784362118841",
+    "isAI": false
+  },
+  {
+    "id": "1784393203038",
+    "title": "🇫🇷 Paris — 🏔️ Adventure Trip",
+    "destination": "Paris",
+    "country": "France",
+    "emoji": "🇫🇷",
+    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800",
+    "days": 5,
+    "travelers": 2,
+    "tripType": "adventure",
+    "tripTypeLabel": "🏔️ Adventure Trip",
+    "prompt": "i need 5 days of paris iternary under budget",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Explore",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Enjoy pastries at a local boulangerie",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Visit the Eiffel Tower & take elevator to the top",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Try escargot at a traditional bistro",
+            "done": false
+          }
+        ],
+        "meal": "Croissants at Du Pain et des Idées"
+      },
+      {
+        "day": 2,
+        "title": "Day 2 — Discover",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Walk through Luxembourg Gardens",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Walk through the Louvre Museum",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Visit Musée d'Orsay",
+            "done": false
+          }
+        ],
+        "meal": "Steak frites at Le Relais de l'Entrecôte"
+      },
+      {
+        "day": 3,
+        "title": "Day 3 — Discover",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Visit the Arc de Triomphe",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Explore Saint-Germain-des-Prés",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Explore the Palace of Versailles",
+            "done": false
+          }
+        ],
+        "meal": "Crêpes in Montmartre"
+      },
+      {
+        "day": 4,
+        "title": "Day 4 — Discover",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Shop at Le Marais district",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Stroll along the Champs-Élysées",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Explore Montmartre & Sacré-Cœur",
+            "done": false
+          }
+        ],
+        "meal": "Fine dining at Le Jules Verne"
+      },
+      {
+        "day": 5,
+        "title": "Final Day & Departure",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Take a Seine River cruise at sunset",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Take a cooking class in French cuisine",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Visit Notre-Dame Cathedral area",
+            "done": false
+          }
+        ],
+        "meal": "Croissants at Du Pain et des Idées"
+      }
+    ],
+    "checklist": [
+      {
+        "text": "Book round-trip flights",
+        "done": false,
+        "category": "booking"
+      },
+      {
+        "text": "Reserve hotel (Hôtel Plaza Athénée)",
+        "done": false,
+        "category": "booking"
+      },
+      {
+        "text": "Get travel insurance",
+        "done": false,
+        "category": "booking"
+      },
+      {
+        "text": "Check passport validity",
+        "done": false,
+        "category": "documents"
+      },
+      {
+        "text": "Apply for visa (if required)",
+        "done": false,
+        "category": "documents"
+      },
+      {
+        "text": "Print/save booking confirmations",
+        "done": false,
+        "category": "documents"
+      },
+      {
+        "text": "Download offline maps",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Pack comfortable walking shoes",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Pack weather-appropriate clothing",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Bring universal power adapter",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Pack sunscreen & toiletries",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Arrange airport transfer",
+        "done": false,
+        "category": "transport"
+      },
+      {
+        "text": "Research local transport options",
+        "done": false,
+        "category": "transport"
+      },
+      {
+        "text": "Exchange currency or get travel card",
+        "done": false,
+        "category": "finance"
+      },
+      {
+        "text": "Set travel budget and daily limits",
+        "done": false,
+        "category": "finance"
+      },
+      {
+        "text": "Inform bank about travel dates",
+        "done": false,
+        "category": "finance"
+      }
+    ],
+    "receipts": [
+      {
+        "item": "✈️ Round-trip flights (×2)",
+        "amount": 1700,
+        "category": "flights",
+        "paid": false
+      },
+      {
+        "item": "🏨 Hotel — 5 nights",
+        "amount": 1100,
+        "category": "accommodation",
+        "paid": false
+      },
+      {
+        "item": "🍽️ Food & dining — 5 days",
+        "amount": 650,
+        "category": "food",
+        "paid": false
+      },
+      {
+        "item": "🎯 Activities & tours — 5 days",
+        "amount": 450,
+        "category": "activities",
+        "paid": false
+      },
+      {
+        "item": "🚕 Local transport",
+        "amount": 150,
+        "category": "transport",
+        "paid": false
+      },
+      {
+        "item": "🛡️ Travel insurance",
+        "amount": 100,
+        "category": "insurance",
+        "paid": false
+      }
+    ],
+    "totalBudget": 4150,
+    "hotel": "Hôtel Plaza Athénée",
+    "createdAt": "2026-07-18T16:46:43.038Z",
+    "status": "planned",
+    "userId": "1784362118841",
+    "isAI": false
+  },
+  {
+    "id": "1784394202832",
+    "title": "🇫🇷 Paris — 🍽️ Culinary Journey",
+    "destination": "Paris",
+    "country": "France",
+    "emoji": "🇫🇷",
+    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800",
+    "days": 3,
+    "travelers": 2,
+    "tripType": "culinary",
+    "tripTypeLabel": "🍽️ Culinary Journey",
+    "prompt": "create a 3 days of paris iternary under budget low cost for everthing i can compromise but i need to visit that curetn can i know currency used ",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Explore",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Visit the Arc de Triomphe",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Explore Saint-Germain-des-Prés",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Visit the Eiffel Tower & take elevator to the top",
+            "done": false
+          }
+        ],
+        "meal": "Croissants at Du Pain et des Idées"
+      },
+      {
+        "day": 2,
+        "title": "Day 2 — Discover",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Take a cooking class in French cuisine",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Walk through the Louvre Museum",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Explore the Palace of Versailles",
+            "done": false
+          }
+        ],
+        "meal": "Steak frites at Le Relais de l'Entrecôte"
+      },
+      {
+        "day": 3,
+        "title": "Final Day & Departure",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Enjoy pastries at a local boulangerie",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Try escargot at a traditional bistro",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Shop at Le Marais district",
+            "done": false
+          }
+        ],
+        "meal": "Crêpes in Montmartre"
+      }
+    ],
+    "checklist": [
+      {
+        "text": "Book round-trip flights",
+        "done": false,
+        "category": "booking"
+      },
+      {
+        "text": "Reserve hotel (Hôtel Plaza Athénée)",
+        "done": false,
+        "category": "booking"
+      },
+      {
+        "text": "Get travel insurance",
+        "done": false,
+        "category": "booking"
+      },
+      {
+        "text": "Check passport validity",
+        "done": false,
+        "category": "documents"
+      },
+      {
+        "text": "Apply for visa (if required)",
+        "done": false,
+        "category": "documents"
+      },
+      {
+        "text": "Print/save booking confirmations",
+        "done": false,
+        "category": "documents"
+      },
+      {
+        "text": "Download offline maps",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Pack comfortable walking shoes",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Pack weather-appropriate clothing",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Bring universal power adapter",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Pack sunscreen & toiletries",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Arrange airport transfer",
+        "done": false,
+        "category": "transport"
+      },
+      {
+        "text": "Research local transport options",
+        "done": false,
+        "category": "transport"
+      },
+      {
+        "text": "Exchange currency or get travel card",
+        "done": false,
+        "category": "finance"
+      },
+      {
+        "text": "Set travel budget and daily limits",
+        "done": false,
+        "category": "finance"
+      },
+      {
+        "text": "Inform bank about travel dates",
+        "done": false,
+        "category": "finance"
+      }
+    ],
+    "receipts": [
+      {
+        "item": "✈️ Round-trip flights (×2)",
+        "amount": 1700,
+        "category": "flights",
+        "paid": false
+      },
+      {
+        "item": "🏨 Hotel — 3 nights",
+        "amount": 660,
+        "category": "accommodation",
+        "paid": false
+      },
+      {
+        "item": "🍽️ Food & dining — 3 days",
+        "amount": 390,
+        "category": "food",
+        "paid": false
+      },
+      {
+        "item": "🎯 Activities & tours — 3 days",
+        "amount": 270,
+        "category": "activities",
+        "paid": false
+      },
+      {
+        "item": "🚕 Local transport",
+        "amount": 90,
+        "category": "transport",
+        "paid": false
+      },
+      {
+        "item": "🛡️ Travel insurance",
+        "amount": 100,
+        "category": "insurance",
+        "paid": false
+      }
+    ],
+    "totalBudget": 3210,
+    "hotel": "Hôtel Plaza Athénée",
+    "createdAt": "2026-07-18T17:03:22.832Z",
+    "status": "planned",
+    "userId": "1784362118841",
+    "isAI": false
+  }
+]
