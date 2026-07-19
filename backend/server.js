@@ -17,7 +17,12 @@ const TRIPS_FILE = path.join(__dirname, 'trips.json');
 const openai = process.env.OPENAI_API_KEY ? new OpenAI({ apiKey: process.env.OPENAI_API_KEY }) : null;
 
 // ─── Middleware ────────────────────────────────────────────────────────────────
-app.use(cors({ origin: process.env.FRONTEND_URL || 'http://localhost:5173', credentials: true }));
+const allowedOrigins = [
+  process.env.FRONTEND_URL || 'http://localhost:5173',
+  'https://promptwars-ten-self.vercel.app',
+  'http://localhost:5173',
+];
+app.use(cors({ origin: allowedOrigins, credentials: true }));
 app.use(express.json());
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
