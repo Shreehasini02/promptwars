@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 
-const API = import.meta.env.VITE_API_URL || '/api'
+const API = import.meta.env.VITE_API_URL ? `${import.meta.env.VITE_API_URL}/api` : '/api'
+const SERVER_URL = import.meta.env.VITE_API_URL || ''
 
 const DESTINATIONS = [
   { src: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=800&auto=format&fit=crop", alt: "Bamboo Forest", label: "Kyoto Bamboo Forest" },
@@ -108,7 +109,7 @@ function TripDetail({ trip, onBack, onUpdate }) {
       if (newReceiptFile) formData.append('receiptImage', newReceiptFile)
 
       const token = localStorage.getItem('tc_token')
-      const res = await fetch(`/api/trips/${trip.id}/receipts`, {
+      const res = await fetch(`${API}/trips/${trip.id}/receipts`, {
         method: 'POST',
         headers: { Authorization: `Bearer ${token}` },
         body: formData
@@ -233,7 +234,13 @@ function TripDetail({ trip, onBack, onUpdate }) {
               <input type="checkbox" checked={r.paid} onChange={() => toggleReceipt(i)} />
               <span className="receipt-item">{r.item}</span>
               {r.imageUrl && (
-                <img src={`http://localhost:5000${r.imageUrl}`} alt="receipt" className="receipt-img-thumb" onClick={(e) => { e.preventDefault(); window.open(`http://localhost:5000${r.imageUrl}`, '_blank') }} />
+                r.imageUrl.toLowerCase().endsWith('.pdf') ? (
+                  <span className="receipt-row-pdf" title="View PDF Bill" onClick={(e) => { e.preventDefault(); window.open(`${SERVER_URL}${r.imageUrl}`, '_blank') }}>
+                    📄
+                  </span>
+                ) : (
+                  <img src={`${SERVER_URL}${r.imageUrl}`} alt="receipt" className="receipt-img-thumb" onClick={(e) => { e.preventDefault(); window.open(`${SERVER_URL}${r.imageUrl}`, '_blank') }} />
+                )
               )}
               <span className="receipt-amount" style={{marginLeft: r.imageUrl ? '10px' : 'auto'}}>${r.amount.toLocaleString()}</span>
             </label>
@@ -286,6 +293,12 @@ function AISection({ onTripGenerated, onSelectTrip }) {
 
     setLoading(true)
     setMessage(null)
+
+    const token = localStorage.getItem('tc_token')
+    if (!token) {
+      setLoading(false)
+      return setMessage({ type: 'error', text: 'You must be signed in to generate an itinerary. Please click "Sign in" at the top right of the homepage first!' })
+    }
     try {
       const res = await fetch(`${API}/generate-itinerary`, {
         method: 'POST',

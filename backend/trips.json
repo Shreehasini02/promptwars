@@ -1391,5 +1391,758 @@
     "status": "planned",
     "userId": "1784362118841",
     "isAI": false
+  },
+  {
+    "id": "1784522150383",
+    "title": "🇬🇷 Santorini — 💕 Romantic Getaway",
+    "destination": "Santorini",
+    "country": "Greece",
+    "emoji": "🇬🇷",
+    "image": "https://images.unsplash.com/photo-1533154683836-84ea7a0bc310?w=800",
+    "days": 5,
+    "travelers": 2,
+    "tripType": "romantic",
+    "tripTypeLabel": "💕 Romantic Getaway",
+    "prompt": "5-day romantic getaway to Santorini",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Explore",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Visit Kamari Beach",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Watch sunset from Oia village",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Explore Pyrgos village",
+            "done": false
+          }
+        ],
+        "meal": "Fresh seafood at Ammoudi Fish Tavern"
+      },
+      {
+        "day": 2,
+        "title": "Day 2 — Discover",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Take a catamaran sailing tour",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Explore the caldera views from Fira",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Wine tasting at Santo Wines",
+            "done": false
+          }
+        ],
+        "meal": "Traditional Greek meze"
+      },
+      {
+        "day": 3,
+        "title": "Day 3 — Discover",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Swim at Perissa Black Sand Beach",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Visit the Red Beach",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Visit the volcanic hot springs",
+            "done": false
+          }
+        ],
+        "meal": "Fava beans at Oia's tavernas"
+      },
+      {
+        "day": 4,
+        "title": "Day 4 — Discover",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Explore Ancient Akrotiri ruins",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Take a cooking class",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Photography tour of blue domes",
+            "done": false
+          }
+        ],
+        "meal": "Wine and cheese sunset dinner"
+      },
+      {
+        "day": 5,
+        "title": "Final Day & Departure",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Hike from Fira to Oia",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Visit the Archaeological Museum",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Visit Amoudi Bay for seafood",
+            "done": false
+          }
+        ],
+        "meal": "Fresh seafood at Ammoudi Fish Tavern"
+      }
+    ],
+    "checklist": [
+      {
+        "text": "Book round-trip flights",
+        "done": false,
+        "category": "booking"
+      },
+      {
+        "text": "Reserve hotel (Canaves Oia Luxury Suites)",
+        "done": false,
+        "category": "booking"
+      },
+      {
+        "text": "Get travel insurance",
+        "done": false,
+        "category": "booking"
+      },
+      {
+        "text": "Check passport validity",
+        "done": false,
+        "category": "documents"
+      },
+      {
+        "text": "Apply for visa (if required)",
+        "done": false,
+        "category": "documents"
+      },
+      {
+        "text": "Print/save booking confirmations",
+        "done": false,
+        "category": "documents"
+      },
+      {
+        "text": "Download offline maps",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Pack comfortable walking shoes",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Pack weather-appropriate clothing",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Bring universal power adapter",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Pack sunscreen & toiletries",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Arrange airport transfer",
+        "done": false,
+        "category": "transport"
+      },
+      {
+        "text": "Research local transport options",
+        "done": false,
+        "category": "transport"
+      },
+      {
+        "text": "Exchange currency or get travel card",
+        "done": false,
+        "category": "finance"
+      },
+      {
+        "text": "Set travel budget and daily limits",
+        "done": false,
+        "category": "finance"
+      },
+      {
+        "text": "Inform bank about travel dates",
+        "done": false,
+        "category": "finance"
+      }
+    ],
+    "receipts": [
+      {
+        "item": "✈️ Round-trip flights (×2)",
+        "amount": 1500,
+        "category": "flights",
+        "paid": false
+      },
+      {
+        "item": "🏨 Hotel — 5 nights",
+        "amount": 1400,
+        "category": "accommodation",
+        "paid": false
+      },
+      {
+        "item": "🍽️ Food & dining — 5 days",
+        "amount": 500,
+        "category": "food",
+        "paid": false
+      },
+      {
+        "item": "🎯 Activities & tours — 5 days",
+        "amount": 350,
+        "category": "activities",
+        "paid": false
+      },
+      {
+        "item": "🚕 Local transport",
+        "amount": 150,
+        "category": "transport",
+        "paid": false
+      },
+      {
+        "item": "🛡️ Travel insurance",
+        "amount": 100,
+        "category": "insurance",
+        "paid": false
+      }
+    ],
+    "totalBudget": 4000,
+    "hotel": "Canaves Oia Luxury Suites",
+    "createdAt": "2026-07-20T04:35:50.383Z",
+    "status": "planned",
+    "userId": "1784522150370",
+    "isAI": false
+  },
+  {
+    "id": "1784522329772",
+    "title": "🇬🇷 Santorini — 💕 Romantic Getaway",
+    "destination": "Santorini",
+    "country": "Greece",
+    "emoji": "🇬🇷",
+    "image": "https://images.unsplash.com/photo-1533154683836-84ea7a0bc310?w=800",
+    "days": 5,
+    "travelers": 2,
+    "tripType": "romantic",
+    "tripTypeLabel": "💕 Romantic Getaway",
+    "prompt": "5-day romantic getaway to Santorini",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Explore",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Visit Amoudi Bay for seafood",
+            "done": true
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Photography tour of blue domes",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Visit Kamari Beach",
+            "done": false
+          }
+        ],
+        "meal": "Fresh seafood at Ammoudi Fish Tavern"
+      },
+      {
+        "day": 2,
+        "title": "Day 2 — Discover",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Take a catamaran sailing tour",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Visit the Red Beach",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Visit the volcanic hot springs",
+            "done": false
+          }
+        ],
+        "meal": "Traditional Greek meze"
+      },
+      {
+        "day": 3,
+        "title": "Day 3 — Discover",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Explore Pyrgos village",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Take a cooking class",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Explore Ancient Akrotiri ruins",
+            "done": false
+          }
+        ],
+        "meal": "Fava beans at Oia's tavernas"
+      },
+      {
+        "day": 4,
+        "title": "Day 4 — Discover",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Watch sunset from Oia village",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Visit the Archaeological Museum",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Swim at Perissa Black Sand Beach",
+            "done": false
+          }
+        ],
+        "meal": "Wine and cheese sunset dinner"
+      },
+      {
+        "day": 5,
+        "title": "Final Day & Departure",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Wine tasting at Santo Wines",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Hike from Fira to Oia",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Explore the caldera views from Fira",
+            "done": false
+          }
+        ],
+        "meal": "Fresh seafood at Ammoudi Fish Tavern"
+      }
+    ],
+    "checklist": [
+      {
+        "text": "Book round-trip flights",
+        "done": false,
+        "category": "booking"
+      },
+      {
+        "text": "Reserve hotel (Canaves Oia Luxury Suites)",
+        "done": false,
+        "category": "booking"
+      },
+      {
+        "text": "Get travel insurance",
+        "done": false,
+        "category": "booking"
+      },
+      {
+        "text": "Check passport validity",
+        "done": false,
+        "category": "documents"
+      },
+      {
+        "text": "Apply for visa (if required)",
+        "done": false,
+        "category": "documents"
+      },
+      {
+        "text": "Print/save booking confirmations",
+        "done": false,
+        "category": "documents"
+      },
+      {
+        "text": "Download offline maps",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Pack comfortable walking shoes",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Pack weather-appropriate clothing",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Bring universal power adapter",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Pack sunscreen & toiletries",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Arrange airport transfer",
+        "done": false,
+        "category": "transport"
+      },
+      {
+        "text": "Research local transport options",
+        "done": false,
+        "category": "transport"
+      },
+      {
+        "text": "Exchange currency or get travel card",
+        "done": false,
+        "category": "finance"
+      },
+      {
+        "text": "Set travel budget and daily limits",
+        "done": false,
+        "category": "finance"
+      },
+      {
+        "text": "Inform bank about travel dates",
+        "done": false,
+        "category": "finance"
+      }
+    ],
+    "receipts": [
+      {
+        "item": "✈️ Round-trip flights (×2)",
+        "amount": 1500,
+        "category": "flights",
+        "paid": true
+      },
+      {
+        "item": "🏨 Hotel — 5 nights",
+        "amount": 1400,
+        "category": "accommodation",
+        "paid": true
+      },
+      {
+        "item": "🍽️ Food & dining — 5 days",
+        "amount": 500,
+        "category": "food",
+        "paid": false
+      },
+      {
+        "item": "🎯 Activities & tours — 5 days",
+        "amount": 350,
+        "category": "activities",
+        "paid": false
+      },
+      {
+        "item": "🚕 Local transport",
+        "amount": 150,
+        "category": "transport",
+        "paid": false
+      },
+      {
+        "item": "🛡️ Travel insurance",
+        "amount": 100,
+        "category": "insurance",
+        "paid": false
+      }
+    ],
+    "totalBudget": 4000,
+    "hotel": "Canaves Oia Luxury Suites",
+    "createdAt": "2026-07-20T04:38:49.772Z",
+    "status": "planned",
+    "userId": "1784522317330",
+    "isAI": false
+  },
+  {
+    "id": "1784522687237",
+    "title": "🇬🇷 Santorini — 💕 Romantic Getaway",
+    "destination": "Santorini",
+    "country": "Greece",
+    "emoji": "🇬🇷",
+    "image": "https://images.unsplash.com/photo-1533154683836-84ea7a0bc310?w=800",
+    "days": 5,
+    "travelers": 2,
+    "tripType": "romantic",
+    "tripTypeLabel": "💕 Romantic Getaway",
+    "prompt": "5-day romantic getaway to Santorini",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & Explore",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Photography tour of blue domes",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Take a catamaran sailing tour",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Watch sunset from Oia village",
+            "done": false
+          }
+        ],
+        "meal": "Fresh seafood at Ammoudi Fish Tavern"
+      },
+      {
+        "day": 2,
+        "title": "Day 2 — Discover",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Visit Kamari Beach",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Swim at Perissa Black Sand Beach",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Take a cooking class",
+            "done": false
+          }
+        ],
+        "meal": "Traditional Greek meze"
+      },
+      {
+        "day": 3,
+        "title": "Day 3 — Discover",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Explore the caldera views from Fira",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Visit the Archaeological Museum",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Explore Ancient Akrotiri ruins",
+            "done": false
+          }
+        ],
+        "meal": "Fava beans at Oia's tavernas"
+      },
+      {
+        "day": 4,
+        "title": "Day 4 — Discover",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Visit Amoudi Bay for seafood",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Visit the volcanic hot springs",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Explore Pyrgos village",
+            "done": false
+          }
+        ],
+        "meal": "Wine and cheese sunset dinner"
+      },
+      {
+        "day": 5,
+        "title": "Final Day & Departure",
+        "activities": [
+          {
+            "time": "Morning",
+            "activity": "Visit the Red Beach",
+            "done": false
+          },
+          {
+            "time": "Afternoon",
+            "activity": "Wine tasting at Santo Wines",
+            "done": false
+          },
+          {
+            "time": "Evening",
+            "activity": "Hike from Fira to Oia",
+            "done": false
+          }
+        ],
+        "meal": "Fresh seafood at Ammoudi Fish Tavern"
+      }
+    ],
+    "checklist": [
+      {
+        "text": "Book round-trip flights",
+        "done": false,
+        "category": "booking"
+      },
+      {
+        "text": "Reserve hotel (Canaves Oia Luxury Suites)",
+        "done": false,
+        "category": "booking"
+      },
+      {
+        "text": "Get travel insurance",
+        "done": false,
+        "category": "booking"
+      },
+      {
+        "text": "Check passport validity",
+        "done": false,
+        "category": "documents"
+      },
+      {
+        "text": "Apply for visa (if required)",
+        "done": false,
+        "category": "documents"
+      },
+      {
+        "text": "Print/save booking confirmations",
+        "done": false,
+        "category": "documents"
+      },
+      {
+        "text": "Download offline maps",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Pack comfortable walking shoes",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Pack weather-appropriate clothing",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Bring universal power adapter",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Pack sunscreen & toiletries",
+        "done": false,
+        "category": "packing"
+      },
+      {
+        "text": "Arrange airport transfer",
+        "done": false,
+        "category": "transport"
+      },
+      {
+        "text": "Research local transport options",
+        "done": false,
+        "category": "transport"
+      },
+      {
+        "text": "Exchange currency or get travel card",
+        "done": false,
+        "category": "finance"
+      },
+      {
+        "text": "Set travel budget and daily limits",
+        "done": false,
+        "category": "finance"
+      },
+      {
+        "text": "Inform bank about travel dates",
+        "done": false,
+        "category": "finance"
+      }
+    ],
+    "receipts": [
+      {
+        "item": "✈️ Round-trip flights (×2)",
+        "amount": 1500,
+        "category": "flights",
+        "paid": false
+      },
+      {
+        "item": "🏨 Hotel — 5 nights",
+        "amount": 1400,
+        "category": "accommodation",
+        "paid": false
+      },
+      {
+        "item": "🍽️ Food & dining — 5 days",
+        "amount": 500,
+        "category": "food",
+        "paid": false
+      },
+      {
+        "item": "🎯 Activities & tours — 5 days",
+        "amount": 350,
+        "category": "activities",
+        "paid": false
+      },
+      {
+        "item": "🚕 Local transport",
+        "amount": 150,
+        "category": "transport",
+        "paid": false
+      },
+      {
+        "item": "🛡️ Travel insurance",
+        "amount": 100,
+        "category": "insurance",
+        "paid": false
+      }
+    ],
+    "totalBudget": 4000,
+    "hotel": "Canaves Oia Luxury Suites",
+    "createdAt": "2026-07-20T04:44:47.237Z",
+    "status": "planned",
+    "userId": "1784522317330",
+    "isAI": false
   }
 ]

@@ -5,5 +5,26 @@
     "identifier": "shrihasinitalluri.132014@marwadiuniversity.ac.in",
     "password": "$2a$12$YOMocvDMNy45IP1ZX5JaN.XkynOscW4marBx7in1VtEODW2PHyWNu",
     "createdAt": "2026-07-18T08:08:38.841Z"
+  },
+  {
+    "id": "1784522129478",
+    "name": "Test",
+    "identifier": "test@example.com",
+    "password": "$2a$12$Eo9s85gDanmjTvPAfqw2KOU5NePr4wC4rVooHQcld5HPkbDxk0aE2",
+    "createdAt": "2026-07-20T04:35:29.478Z"
+  },
+  {
+    "id": "1784522150370",
+    "name": "Tester",
+    "identifier": "test_1784522150089@example.com",
+    "password": "$2a$12$HaGQ2oiG7/gFyKMmpDPiu.yWqnADCLRGb1dN/Ctf579xcvvv6lfBi",
+    "createdAt": "2026-07-20T04:35:50.370Z"
+  },
+  {
+    "id": "1784522317330",
+    "name": "hasini",
+    "identifier": "tallurishreehasini@gmail.com",
+    "password": "$2a$12$21G0xM1MPI7sskhOf965wumD8Z6wld3Ii/dxyVauNiP6KHXaQj1gK",
+    "createdAt": "2026-07-20T04:38:37.330Z"
   }
 ]

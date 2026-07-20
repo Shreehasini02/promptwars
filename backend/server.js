@@ -19,6 +19,7 @@ const openai = process.env.OPENAI_API_KEY ? new OpenAI({ apiKey: process.env.OPE
 // ─── Middleware ────────────────────────────────────────────────────────────────
 const allowedOrigins = [
   process.env.FRONTEND_URL || 'http://localhost:5173',
+  'https://promptwars-git-main-shrihasini-s-projects.vercel.app',
   'https://promptwars-ten-self.vercel.app',
   'http://localhost:5173',
 ];
@@ -131,6 +132,42 @@ app.post('/api/login', async (req, res) => {
     });
   } catch (err) {
     console.error('Login error:', err);
+    res.status(500).json({ message: 'Server error. Please try again.' });
+  }
+});
+
+// ─── POST /api/login-google ──────────────────────────────────────────────────
+app.post('/api/login-google', async (req, res) => {
+  try {
+    const { email, name } = req.body;
+    if (!email) {
+      return res.status(400).json({ message: 'Email is required for Google Sign-In.' });
+    }
+
+    const users = readJSON(USERS_FILE);
+    let user = users.find(u => u.identifier === email.toLowerCase().trim());
+    if (!user) {
+      // Auto-register Google user
+      const hashedPassword = await bcrypt.hash('google-auth-random-pass-' + Math.random(), 12);
+      user = {
+        id: Date.now().toString(),
+        name: name || 'Google Traveler',
+        identifier: email.toLowerCase().trim(),
+        password: hashedPassword,
+        createdAt: new Date().toISOString(),
+      };
+      users.push(user);
+      writeJSON(USERS_FILE, users);
+    }
+
+    const token = jwt.sign({ id: user.id, name: user.name }, JWT_SECRET, { expiresIn: '7d' });
+    res.json({
+      message: 'Logged in with Google! ✈️',
+      token,
+      user: { id: user.id, name: user.name, identifier: user.identifier },
+    });
+  } catch (err) {
+    console.error('Google login error:', err);
     res.status(500).json({ message: 'Server error. Please try again.' });
   }
 });
