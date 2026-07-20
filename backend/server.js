@@ -550,7 +550,13 @@ app.delete('/api/trips/:id', authMiddleware, (req, res) => {
 // ─── Health Check ─────────────────────────────────────────────────────────────
 app.get('/api/health', (_, res) => res.json({ status: 'ok', message: 'TravelCopilot API is running ✈️' }));
 
-app.listen(PORT, () => {
-  console.log(`\n✈️  TravelCopilot Backend running on http://localhost:${PORT}`);
-  console.log(`   Health: http://localhost:${PORT}/api/health\n`);
-});
+// ─── Export for Vercel Serverless + Local Dev ─────────────────────────────────
+module.exports = app;
+
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`\n✈️  TravelCopilot Backend running on http://localhost:${PORT}`);
+    console.log(`   Health: http://localhost:${PORT}/api/health\n`);
+  });
+}
+
